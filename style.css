@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+p,h2 {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+}
+.logo-center {
+	margin-left: auto;
+	margin-right: auto;
+    width: 5em
+}
+.flex-Centre {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-align-center {
+    text-align: center;
+}
+.flex-Column-Centre {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.bordure {
+    width: 375px;
+    box-shadow: inset 1px 4px 9px -6px;
+}
+.back-Gris1 {
+	background-color: #e4e4e4;
+}
+.back-Gris {
+    background-color: #F2F2F2;
+}
+.button-explorer {
+    border: 2px solid #FF79DA;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color:#FF79DA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Nav*/
+.size-nav {
+    height: auto;
+}
+.icone-mark-left {
+    margin-right: 15px;
+}
+.font-size-decouvrez {
+    font-size: large;
+}
