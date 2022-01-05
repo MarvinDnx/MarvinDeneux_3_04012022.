@@ -5,6 +5,7 @@ p,h2 {
     font-family: 'Roboto', sans-serif;
 }
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .logo-center {
@@ -27,8 +28,10 @@ body {
 	align-items: center;
 }
 .bordure {
-    width: 375px;
     box-shadow: inset 1px 4px 9px -6px;
+}
+.texte-Gras {
+	font-weight: bold;
 }
 .back-Gris1 {
 	background-color: #e4e4e4;
@@ -36,23 +39,69 @@ body {
 .back-Gris {
     background-color: #F2F2F2;
 }
-.button-explorer {
-    border: 2px solid #FF79DA;
-    height: 50px;
-    border-radius: 30px;
-    color: white;
-    background-color:#FF79DA;
-    padding-left: 20px;
-    padding-right: 20px;
+.margin-reservez {
+    margin-top:0.5rem;
 }
-
 /*Nav*/
 .size-nav {
-    height: auto;
+    height: 300px;
 }
 .icone-mark-left {
     margin-right: 15px;
 }
 .font-size-decouvrez {
     font-size: large;
+    color: gray;
+    margin-bottom: 1.5rem;
 }
+.button-explorer {
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 2rem;
+    box-shadow: 2px -1px 16px -3px #000000;
+    background: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+    transition: 200ms;
+    margin-top: 0.5rem;
+}
+.button-explorer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*Fonctionnement*/
+.margin-fonctionnement {
+    margin-left: 10px;
+}
+.ol-fonctio {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.li-fonctio {
+    background-color: #F2F2F2;
+    padding:1.5rem 2rem;
+    border: 1px solid #F2F2F2;
+    border-radius:10px 10px 10px 10px;
+    margin-right: 20px;
+    align-items: center;
+    box-shadow: 2px -1px 16px -3px black;
+    transition: 200ms;
+}
+.li-fonctio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.bloc-fonctio {
+    margin-bottom: 20px;
+}
+.icone-mark-left1 {
+    color: rgb(134, 130, 130);
+}
+.border-fonctio {
+    border-radius: 25px;
+    width: 20px;
+    height:20px;
+    color: #FF79DA;
+}
+
