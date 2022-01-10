@@ -1,6 +1,9 @@
 h1 {
     font-family: 'Shrikhand', cursive;
 }
+h4 {
+    font-family: 'Shrikhand', cursive
+}
 p,h2 {
     font-family: 'Roboto', sans-serif;
 }
@@ -134,7 +137,7 @@ body {
 }
 /*Restaurants*/
 .size-restaurants {
-    height: 1200px;
+    height: 1272px;
 }
 .marg-titre1 {
     margin-left: 10px;
@@ -191,16 +194,16 @@ body {
 }
 .coeur {
     font-size: 25px;
-    margin-left: 257px;
+    margin-left: 243px;
     position: absolute;
-    margin-top: -53px;
+    margin-top: -70px;
     border-radius: 50%;
 }
 .coeur1 {
     font-size: 25px;
-    margin-left: 257px;
+    margin-left: 243px;
     position: absolute;
-    margin-top: -53px;
+    margin-top: -70px;
     border-radius: 50%;
     color: transparent;
     background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
@@ -215,4 +218,43 @@ body {
     transform: scale(1.2);
     transition: all 400ms
 }
+/*Footer*/
+.footer {
+    height: 179px;
+    padding: 1px;
+}
+.back-black {
+    background-color: #353535;
+}
+.ohmyfood-style {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-left: 17px;
+}
+.footer-contact {
+    color: white;
+    margin-left: 19px;
+    font-weight: 900;
+    margin-left: 43px;
+}
+.footer-contact1 {
+    color: white;
+    margin-left: 19px;
+}
+.fourk-footer {
+    color: white;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: -22px;
+}
+.margin-propo {
+    margin-bottom: 1px;
+}
 
+.marg-cube {
+    margin-bottom: 23px;
+}
+.marg-cube1 {
+    margin-top: 18px;
+}
