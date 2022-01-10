@@ -4,6 +4,9 @@ h1 {
 p,h2 {
     font-family: 'Roboto', sans-serif;
 }
+h3,p{
+	margin: 5px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,15 +16,16 @@ body {
 	margin-right: auto;
     width: 5em
 }
-.flex-Centre {
+.flex-centre {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    padding: 15px;
 }
 .text-align-center {
     text-align: center;
 }
-.flex-Column-Centre {
+.flex-column-centre {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -30,13 +34,13 @@ body {
 .bordure {
     box-shadow: inset 1px 4px 9px -6px;
 }
-.texte-Gras {
+.texte-gras {
 	font-weight: bold;
 }
-.back-Gris1 {
-	background-color: #e4e4e4;
+.back-gris1 {
+	background-color: #eaeaea;
 }
-.back-Gris {
+.back-gris {
     background-color: #F2F2F2;
 }
 .margin-reservez {
@@ -69,9 +73,16 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
+.marg {
+    margin-bottom: 20px;
+}
 /*Fonctionnement*/
-.margin-fonctionnement {
+.marg-section {
+    margin-top: 38px;
+}
+.margin-titre {
     margin-left: 10px;
+    padding-bottom: 4px;
 }
 .ol-fonctio {
     flex-wrap: wrap;
@@ -116,11 +127,92 @@ body {
 }
 .icone-mark-left1 {
     color: rgb(134, 130, 130);
+    margin-right: 12px;
 }
-.border-fonctio {
-    border-radius: 25px;
-    width: 20px;
-    height:20px;
-    color: #FF79DA;
+.icone-mark-left1::before {
+    margin-right: 12px;
+}
+/*Restaurants*/
+.size-restaurants {
+    height: 1200px;
+}
+.marg-titre1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 36px;
+}
+.marg-section {
+    margin-top: 53px;
+}
+.block1 {
+    padding: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    padding-top:0%;
+}
+.cube-restaurants {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 0.5%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.cube-restaurants:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cube-details-restaurants {
+	width: 90%;
+}
+.img-restaurants {
+    object-fit: cover;
+	width: 100%;
+	height: 190px;
+	border-radius: 15px 15px 0 0;
+}
+.container-text {
+    position: absolute;
+    right: 26px;
+    color: #008766;
+    padding-bottom: 1px;
+    background-color: #99e2d0;
+    margin-top: -95px;
+    border-radius: 2px;
+}
+.flex-column-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marg-h3 {
+    margin-top: 20px;
+}
+.coeur {
+    font-size: 25px;
+    margin-left: 257px;
+    position: absolute;
+    margin-top: -53px;
+    border-radius: 50%;
+}
+.coeur1 {
+    font-size: 25px;
+    margin-left: 257px;
+    position: absolute;
+    margin-top: -53px;
+    border-radius: 50%;
+    color: transparent;
+    background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0; 
+}
+.coeur1:hover {
+    cursor: pointer;
+    color: transparent;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 400ms
 }
 
