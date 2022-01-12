@@ -137,7 +137,7 @@ body {
 }
 /*Restaurants*/
 .size-restaurants {
-    height: 1272px;
+    height: 1323px;
 }
 .marg-titre1 {
     margin-left: 10px;
@@ -163,7 +163,6 @@ body {
 }
 .cube-restaurants:hover {
     cursor: pointer;
-    transform: scale(1.1);
 }
 .cube-details-restaurants {
 	width: 90%;
@@ -174,7 +173,7 @@ body {
 	height: 190px;
 	border-radius: 15px 15px 0 0;
 }
-.container-text {
+.nouveau-text {
     position: absolute;
     right: 26px;
     color: #008766;
@@ -258,3 +257,52 @@ body {
 .marg-cube1 {
     margin-top: 18px;
 }
+
+@media screen and (min-width: 768px) {
+
+.nouveau-text {
+    position: absolute;
+    right: 26px;
+    color: #008766;
+    padding-bottom: 1px;
+    background-color: #99e2d0;
+    margin-top: -109px;
+    margin-right: 100px;
+    border-radius: 2px;
+}
+.li-fonctio {
+    list-style-type: none;
+    background-color: #F2F2F2;
+    padding:1.5rem 2rem;
+    border: 1px solid #F2F2F2;
+    border-radius:10px 10px 10px 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    align-items: center;
+    box-shadow: 2px -1px 16px -3px black;
+    transition: 200ms;
+    counter-increment: li;
+    position: relative;
+}
+.li-fonctio::before {
+    content: counter(li);
+    color: rgb(245, 240, 255);
+    background-color: #9356dc;
+    display: grid;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    left: -20px;
+    bottom: 16px;
+}
+.li-fonctio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+}
+    
+
