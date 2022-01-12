@@ -183,6 +183,15 @@ body {
     margin-top: -95px;
     border-radius: 2px;
 }
+.nouveau-text1 {
+    position: absolute;
+    right: 26px;
+    color: #008766;
+    padding-bottom: 1px;
+    background-color: #99e2d0;
+    margin-top: -95px;
+    border-radius: 2px;
+}
 .flex-column-centre {
     display: flex;
     flex-direction: column;
@@ -271,6 +280,15 @@ body {
     margin-right: 100px;
     border-radius: 2px;
  }
+ .nouveau-text1 {
+    position: absolute;
+    right: 128px;
+    color: #008766;
+    padding-bottom: 1px;
+    background-color: #99e2d0;
+    margin-top: -95px;
+    border-radius: 2px;
+}
  .li-fonctio {
     list-style-type: none;
     background-color: #F2F2F2;
@@ -321,6 +339,13 @@ body {
     -webkit-background-clip: text;
     opacity: 0; 
  }
+ .block1 {
+    padding: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 }
 @media screen and (min-width:1679px){
     .cube-restaurants {
