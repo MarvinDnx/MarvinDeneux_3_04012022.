@@ -405,4 +405,27 @@ body {
         margin-top: -109px;
         border-radius: 2px;
     }
+    .ohmyfood-style {
+        color: white;
+        font-weight: lighter;
+        font-size: 23px;
+        margin-bottom: 10px;
+        margin-left: 45%;
+    }
+    .footer-contact {
+        color: white;
+        margin-left: 19px;
+        font-weight: 900;
+        margin-left: 44%;
+    }
+    .fourk-footer {
+        color: white;
+        position: absolute;
+        margin-left: 704px;
+        margin-top: -22px;
+    }
+    .footer-contact1 {
+        color: white;
+        margin-left: 44%;
+    }
 }
