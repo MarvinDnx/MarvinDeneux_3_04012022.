@@ -301,6 +301,25 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
+.coeur {
+    font-size: 25px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -70px;
+    border-radius: 50%;
+}
+.coeur1 {
+    font-size: 25px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -70px;
+    border-radius: 50%;
+    color: transparent;
+    background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0; 
+}
 
 
 }
