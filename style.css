@@ -347,7 +347,7 @@ body {
     padding-bottom: 0%;
 }
 }
-@media screen and (min-width:1679px){
+@media screen and (min-width:1920px){
     .cube-restaurants {
         width: 53%;
         height: auto;
@@ -421,11 +421,30 @@ body {
     .fourk-footer {
         color: white;
         position: absolute;
-        margin-left: 704px;
+        margin-left: 810px;
         margin-top: -22px;
     }
     .footer-contact1 {
         color: white;
         margin-left: 44%;
     }
+    .coeur {
+        font-size: 25px;
+        margin-left: 696px;
+        position: absolute;
+        margin-top: -70px;
+        border-radius: 50%;
+     }
+     .coeur1 {
+        font-size: 25px;
+        margin-left: 696px;
+        position: absolute;
+        margin-top: -70px;
+        border-radius: 50%;
+        color: transparent;
+        background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0; 
+     }
 }
