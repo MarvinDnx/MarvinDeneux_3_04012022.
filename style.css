@@ -424,8 +424,11 @@ body {
         }    
     
     }
-
+/*Page 2*/
 /*À la française section image de font*/
+.marg-bloc-fr{
+    margin-bottom: -4%;
+}
 .font-sec-alfr {
     height: 200px;
 }
@@ -434,6 +437,19 @@ body {
     width: 100%;
     height: 290px;
     border-radius: 0px;
+}
+.fleche-button {
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    margin-top: -55px;
+}
+.fleche-button:hover {
+    cursor: pointer;
+}
+.size-fleche {
+    font-size: 20px;
+
 }
 /*Section menu*/
 .size-section-m {
@@ -447,4 +463,36 @@ body {
     font-weight: lighter;
     font-family: 'Shrikhand', cursive
     
+}
+.coeurfr {
+    font-size: 1.5rem;
+    margin-left: 294px;
+    position: absolute;
+    margin-top: -56px;
+    border-radius: 50%;
+}
+.coeurfr1 {
+    font-size: 1.5rem;
+    margin-left: 294px;
+    position: absolute;
+    margin-top: -57px;
+    border-radius: 0%;
+    color: transparent;
+    background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0; 
+}
+.coeurfr1:hover {
+    cursor: pointer;
+    color: transparent;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 150ms
+}
+.entrée {
+    height: 22px;
+    width: 45px;
+    border-bottom: 4px solid #99e2d0;;
+    margin-left: 11px;
 }
