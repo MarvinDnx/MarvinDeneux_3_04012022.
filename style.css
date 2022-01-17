@@ -124,7 +124,7 @@ body {
     left: -20px;
     bottom: 16px;
 }
-.li-fonctio:hover {
+.li-fonctio:hover{
     cursor: pointer;
     transform: scale(1.1);
     background-color: rgba(147, 86, 220, 0.3);
@@ -136,12 +136,11 @@ body {
     color: rgb(134, 130, 130);
     margin-right: 12px;
 }
-.icone-mark-left1::before {
-    margin-right: 12px;
-}
 .icone-mark-left1:hover {
     color: #9356dc;
 }
+
+
 /*Restaurants*/
 .size-restaurants {
     height: 1323px;
@@ -208,14 +207,14 @@ body {
     margin-top: 20px;
 }
 .coeur {
-    font-size: 22px;
+    font-size: 1.5rem;
     margin-left: 287px;
     position: absolute;
     margin-top: -69px;
     border-radius: 50%;
 }
 .coeur1 {
-    font-size: 22px;
+    font-size: 1.5rem;
     margin-left: 288px;
     position: absolute;
     margin-top: -69px;
@@ -231,7 +230,8 @@ body {
     color: transparent;
     opacity: 1;
     transform: scale(1.2);
-    transition: all 250ms
+    transition: all 150ms
+    
 }
 /*Footer*/
 .footer {
@@ -295,10 +295,6 @@ body {
      margin-bottom: 3%;
  }
     .block1 {
-    padding: 5%;
-    padding-bottom: 5%;
-    width: 90%;
-    padding-top: 0%;
     padding-bottom: 0%;
 }
     .coeur {
@@ -317,9 +313,6 @@ body {
     }
     .cube-restaurants {
         width: 53%;
-        height: auto;
-        background-color: white;
-        padding: 0.5%;
         padding-right: 0%;
         padding-left: 0%;
         padding-top: 0%;
@@ -328,9 +321,6 @@ body {
         margin-right: 20px;
     }
     .block1 {
-        padding: 5%;
-        padding-bottom: 5%;
-        width: 90%;
         padding-top:0%;
     }
     .block2 {
@@ -340,15 +330,11 @@ body {
         padding-top:0%;
     }
     .img-restaurants {
-        object-fit: cover;
-        width: 100%;
         height: 290px;
-        border-radius: 15px 15px 0 0;
     }
     .size-restaurants {
         height: 1080px;
     }
-
     .flex-between {
         display: flex;
         justify-content: space-between;
@@ -364,8 +350,6 @@ body {
         margin-top: -159px;
     }
     .ohmyfood-style {
-        color: white;
-        font-weight: lighter;
         font-size: 23px;
         margin-bottom: 10px;
         margin-left: 45%;
@@ -395,6 +379,52 @@ body {
          margin-left: 37%;
      }
 }
+/*Loader*/
+.load-parent {
+        background: white;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeout 0.1s 2s forwards;
+}
+@keyframes fadeout {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+        visibility: hidden;
+    }
+}
+.chargement {
+    border: 10px solid #F2F2F2;
+    border-top:10px solid #9356dc;
+    border-bottom: 10px solid #353535;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation:spin 2s linear infinite;
+    -o-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right:0; bottom: 0;
+    }
+    @keyframes spin {
+        0% {
+          transform: rotate(0deg);  
+        }
+        100% {
+            transform: rotate(360deg);
+        }    
+    
+    }
+
 /*À la française section image de font*/
 .font-sec-alfr {
     height: 200px;
