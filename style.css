@@ -10,6 +10,7 @@ p,h2 {
 }
 h3,p{
 	margin: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -453,7 +454,7 @@ body {
 }
 /*Section menu*/
 .size-section-m {
-    height: 1323px;
+    height: 1065px;
     border-radius: 43px 43px 0 0;
     position: relative;
     margin-top: 8%;
@@ -490,9 +491,49 @@ body {
     transform: scale(1.2);
     transition: all 150ms
 }
-.entrée {
+.entrée-plt-des {
     height: 22px;
     width: 45px;
     border-bottom: 4px solid #99e2d0;;
     margin-left: 11px;
+}
+.marg-entpltdes {
+    margin-right: 10px;
+    margin-top: 42px;
+}
+
+.flex-column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cube-details-menu{
+    width: 90%;
+    padding-left: 5%;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: 2px -1px 16px -10px black;
+}
+.prix-menu{
+    position: absolute;
+    margin-left: 292px;
+    margin-top: -23px;
+    font-weight:bold ;
+}
+.menu-margin{
+    margin-left: -10px;
+}
+.button-explorer {
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 4rem;
+    box-shadow: 2px -1px 16px -3px #000000;
+    background: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
+    transition: 200ms;
+    margin-top: 3.5rem;
 }
