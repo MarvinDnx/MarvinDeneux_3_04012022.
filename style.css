@@ -494,7 +494,7 @@ body {
 .entrée-plt-des {
     height: 22px;
     width: 45px;
-    border-bottom: 4px solid #99e2d0;;
+    border-bottom: 4px solid #99E2D0;;
     margin-left: 11px;
 }
 .marg-entpltdes {
@@ -516,12 +516,14 @@ body {
     margin-left: 10px;
     background-color: white;
     box-shadow: 2px -1px 16px -10px black;
+    cursor: pointer;
 }
 .prix-menu{
     position: absolute;
-    margin-left: 292px;
-    margin-top: -23px;
-    font-weight:bold ;
+    margin-left: 287px;
+    margin-top: -24px;
+    font-weight:bold;
+    border: 1px solid black;
 }
 .menu-margin{
     margin-left: -10px;
@@ -537,3 +539,131 @@ body {
     transition: 200ms;
     margin-top: 3.5rem;
 }
+.cascade {
+        animation: fadeindown 3s;
+      }
+.cascade-1 {
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.cascade-2 {
+    animation-delay: 140ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.cascade-3 {
+    animation-delay: 280ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}      
+@keyframes fadeindown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+ }
+ .animation-chek {
+     overflow: hidden;
+    background-color: #99E2D0;
+    width: 4rem;
+    height: 3.7rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 5s;
+    top: 139px;
+    left: 282px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    border-radius: 0 10px 10px 0;
+ }
+ .animation-chek:hover {
+    cursor: pointer;
+ }
+ @keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+ }
+ .animation-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(360deg);
+    transition-duration: 500ms;
+ }
+ .animation-icon:hover {
+    width: 1.6rem;
+  }
+  
+  .animation-icon:hover {
+    transform: rotate(0deg);
+  }
+ .color-icon {
+    color: #99E2D0;
+ } 
+ .entrée-p {
+     margin-left: -1px;
+ }
+ 
+ @media screen and (min-width: 768px) {
+    .marg-bloc-fr {
+        margin-bottom: -2%;
+    }
+    .size-section-m {
+        margin-top: 7%;
+    }
+    .coeurfr {
+        margin-left: 698px;
+    }
+    .coeurfr1 { 
+        margin-left: 698px;
+    }
+    .prix-menu {
+        margin-left: 630px;
+    }
+ }
+ @media screen and (min-width:1200px) {
+    .flex-column-around {
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+    .marg-bloc-fr {
+        margin-bottom: 0%;
+    }
+    .cover-section {
+        width: 100%;
+        height: 356px;
+    }
+    .coeurfr {
+        margin-left: 71%;
+    }
+    .coeurfr1 {
+        margin-left: 71%;
+    }
+    .marg-titre1 {
+        margin-left: 27%;
+    }
+    .entrée-plt-des {
+        margin-left: 27%;
+    }
+    .animation-chek {
+        left: 69%;
+    }
+ }
