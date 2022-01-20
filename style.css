@@ -224,6 +224,7 @@ body {
     color: transparent;
     background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
     background-clip: text;
+    -webkit-background-clip: text;
     opacity: 0; 
 }
 .coeur1:hover {
@@ -479,6 +480,7 @@ body {
     color: transparent;
     background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
     background-clip: text;
+    -webkit-background-clip: text;
     opacity: 0; 
 }
 .coeurfr1:hover {
@@ -685,6 +687,7 @@ body {
     color: transparent;
     background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
     background-clip: text;
+    -webkit-background-clip: text;
     opacity: 0; 
 }
 .coeurlanen1:hover {
@@ -738,3 +741,4 @@ body {
         margin-left: 71%;
     }
 }
+/*Page4*/
