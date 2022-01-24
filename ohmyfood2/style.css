@@ -7,6 +7,7 @@ h4 {
 }
 p,h2 {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 h3,p{
 	margin: 5px;
@@ -510,6 +511,7 @@ body {
 }
 .cube-details-menu{
     width: 90%;
+    position: relative;
     padding-left: 5%;
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
@@ -520,11 +522,11 @@ body {
     cursor: pointer;
 }
 .prix-menu{
+    font-weight: bold;
     position: absolute;
-    margin-left: 287px;
-    margin-top: -24px;
-    font-weight:bold;
-    border: 1px solid black;
+    margin-left: 70%;
+    bottom: 1%;
+    padding: 34px 15px 0px 15px;
 }
 .menu-margin{
     margin-left: -10px;
@@ -540,21 +542,26 @@ body {
     transition: 200ms;
     margin-top: 3.5rem;
 }
+.button-explorer1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
 .cascade {
         animation: fadeindown 3s;
       }
 .cascade-1 {
-    animation-delay: 50ms;
+    animation-delay: 400ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 .cascade-2 {
-    animation-delay: 150ms;
+    animation-delay: 800ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 .cascade-3 {
-    animation-delay: 250ms;
+    animation-delay: 1200ms;
     animation-fill-mode: forwards;
     opacity: 0;
 }      
@@ -568,57 +575,51 @@ body {
         opacity: 1;
     }
  }
- .animation-chek {
-     overflow: hidden;
-    background-color: #99E2D0;
-    width: 4rem;
-    height: 3.7rem;
+ .animation-chek{
+    overflow: hidden;
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 5s;
-    top: 139px;
-    left: 282px;
-    animation-duration: 3s;
-    animation-name: slidein;
-    border-radius: 0 10px 10px 0;
- }
- .animation-chek:hover {
-    cursor: pointer;
- }
- @keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
- }
+    text-align: center;
+    background: #99E2D0;
+    width: 54px;
+    height: 54px;
+    margin-left: 112%;
+    top: 0%;
+    transform: translate(10px, 10px);
+    -webkit-animation: slide-left 1s ease-in-out both;
+	animation: slide-left 1s ease-in-out both;
+}
+@-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
  .animation-icon {
-    height: 1.6rem;
-    width: 1.6rem;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    transform: rotate(360deg);
-    transition-duration: 500ms;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20%;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-animation: rotate 0.5s both;
+    animation: rotate 0.5s both;
  }
- .animation-icon:hover {
-    width: 1.6rem;
-  }
-  
   .animation-icon:hover {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
   }
- .color-icon {
-    color: #99E2D0;
- } 
  .entrée-p {
      margin-left: -1px;
  }
@@ -628,7 +629,7 @@ body {
         margin-bottom: -2%;
     }
     .size-section-m {
-        margin-top: 7%;
+        height: 1090px;
     }
     .coeurfr {
         margin-left: 698px;
@@ -636,14 +637,14 @@ body {
     .coeurfr1 { 
         margin-left: 698px;
     }
-    .prix-menu {
-        margin-left: 630px;
+    .border{
+        border: 1px solid;
     }
  }
  @media screen and (min-width:1200px) {
     .flex-column-around {
-        margin-left: 26%;
-        margin-right: 26%;
+        margin-left: 11%;
+        margin-right: 11%;
     }
     .marg-bloc-fr {
         margin-bottom: 0%;
@@ -658,14 +659,28 @@ body {
     .coeurfr1 {
         margin-left: 71%;
     }
-    .entrée-plt-des {
+    .marg-titre1 {
         margin-left: 27%;
     }
-    .animation-chek {
-        left: 69%;
+    .entrée-plt-des {
+        margin-left: 14%;
     }
+     
     .marg-bloc-fr {
         margin-bottom: -1%;
+    }
+    .flex-column-around {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cube-details-menu {
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .size-section-m {
+        margin-top: 7%;
+        height: 671px;
     }
  }
  /*Page3*/
