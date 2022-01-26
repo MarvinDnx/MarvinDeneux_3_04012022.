@@ -10,7 +10,7 @@ p,h2 {
     font-size: 16px;
 }
 h3,p{
-	margin: 5px;
+	margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 body {
@@ -456,7 +456,7 @@ body {
 }
 /*Section menu*/
 .size-section-m {
-    height: 1065px;
+    height: 1152px;
     border-radius: 43px 43px 0 0;
     position: relative;
     margin-top: 8%;
@@ -498,10 +498,7 @@ body {
     width: 45px;
     border-bottom: 4px solid #99E2D0;;
     margin-left: 11px;
-}
-.marg-entpltdes {
-    margin-right: 10px;
-    margin-top: 42px;
+    margin-bottom: 7px;
 }
 
 .flex-column-around {
@@ -509,28 +506,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
-.cube-details-menu{
-    width: 90%;
-    position: relative;
-    padding-left: 5%;
-    border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
-    box-shadow: 2px -1px 16px -10px black;
-    cursor: pointer;
-}
-.prix-menu{
-    font-weight: bold;
-    position: absolute;
-    margin-left: 70%;
-    bottom: 1%;
-    padding: 34px 15px 0px 15px;
-}
-.menu-margin{
-    margin-left: -10px;
-}
+
 .button-explorer1 {
     color: white;
     font-size: large;
@@ -540,7 +516,7 @@ body {
     box-shadow: 2px -1px 16px -3px #000000;
     background: linear-gradient(to top,#9356dc,#ff79da);
     transition: 200ms;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 .button-explorer1:hover {
     cursor: pointer;
@@ -575,43 +551,102 @@ body {
         opacity: 1;
     }
  }
- .animation-chek{
-    overflow: hidden;
-    position: absolute;
-    text-align: center;
-    background: #99E2D0;
-    width: 54px;
-    height: 54px;
-    margin-left: 83%;
-    top: 0%;
-    transition: transform 330ms ease-in-out;
-}
-.animation-chek:hover {
-    transform: translate(-100px);
-}
-
- .animation-icon {
-    font-size: 30px;
-    color: white;
-    margin-bottom: 20%;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    -webkit-animation: rotate 0.5s both;
-    animation: rotate 0.5s both;
- }
-  .animation-icon:hover {
-    transform: rotate(180deg);
-  }
  .entrée-p {
      margin-left: -1px;
  }
+ .menu {
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px -1px 16px -10px black; 
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.menu-caché {
+    overflow: hidden;
+}
+
+.repas{
+    margin-top: 11px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto;
+    line-height: 1.2em;
+}
+
+.accompagnement{
+    margin-bottom: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+.prix {
+    font-weight: bold;
+    margin-top: 1px;
+    margin-right: 10px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-left: auto;
+}
+.check-animation {
+    color: white;
+    background-color: #99E2D0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    width: 65px;
+    margin-right: -65px;
+    transition: margin 1s;
+}
+.size-logo {
+    font-size: 1.5rem
+}
+
+.menu:hover .check-animation {
+    margin-right: 0;
+}
+
+.menu:hover .check-animation i{
+    animation: spinlogo 1.60s;
+}
+
+@keyframes spinlogo{
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
  
  @media screen and (min-width: 768px) {
+    .size-logo {
+        font-size: 1.5rem
+    }
     .marg-bloc-fr {
         margin-bottom: -2%;
     }
     .size-section-m {
-        height: 1090px;
+        height: 1149px;
     }
     .coeurfr {
         margin-left: 698px;
@@ -624,10 +659,9 @@ body {
     }
  }
  @media screen and (min-width:1200px) {
-    .flex-column-around {
-        margin-left: 11%;
-        margin-right: 11%;
-    }
+     .size-logo {
+        font-size: 1.5rem
+     }
     .marg-bloc-fr {
         margin-bottom: 0%;
     }
@@ -644,25 +678,85 @@ body {
     .marg-titre1 {
         margin-left: 27%;
     }
-    .entrée-plt-des {
-        margin-left: 14%;
+    .entrée-p0 {
+        margin-left: 1rem;
     }
-     
+    .entrée-p1 {
+        margin-left: 0rem;
+        margin-top: -7rem;
+    }
+    .entrée-p2 {
+        margin-left: 0rem;
+        margin-top: -18rem;
+    }
+    .entrée-plt-des {
+        margin-left: 7%;
+        margin-top: 8%;
+    }
+    .entrée-plt-des1 {
+        height: 22px;
+        width: 45px;
+        border-bottom: 4px solid #99E2D0;
+        margin-left: 0%;
+        margin-top: 8%;
+    }
+    .entrée-plt-des2 {
+        height: 22px;
+        width: 45px;
+        border-bottom: 4px solid #99E2D0;
+        margin-left: -1%;
+        margin-top: 8%;
+    }
     .marg-bloc-fr {
         margin-bottom: -1%;
     }
-    .flex-column-around {
+    .flex-column-around0 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
     }
-    .cube-details-menu {
-        margin-top: 5px;
-        margin-left: 50px;
+    .flex-column-around1 {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .flex-column-around2 {
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: 1rem;
+    }
+    .flex-column-around3 {
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: 1rem;
     }
     .size-section-m {
         margin-top: 7%;
-        height: 671px;
+        height: 800px;
+    }
+    .marg-entpltdes1 {
+        margin-right: 10px;
+        margin-top: 42px;
+    }
+    .flex-space {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{
+        width: 30%;
+        margin-bottom: 0px;
+    }
+
+    .button-explorer2 {
+        color: white;
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 4rem;
+    box-shadow: 2px -1px 16px -3px #000000;
+    background: linear-gradient(to top,#9356dc,#ff79da);
+    transition: 200ms;
+    margin-top: 13.5rem;
     }
  }
  /*Page3*/
@@ -710,8 +804,9 @@ body {
     .marg-bloc-fr {
         margin-bottom: -2%;
     }
-    .size-section-m {
+    .size-section-m1 {
         margin-top: 7%;
+        height: 1149px;
     }
     .coeurlanen {
         margin-left: 698px;
@@ -737,4 +832,4 @@ body {
         margin-left: 71%;
     }
 }
-/*Page4*/
+
