@@ -164,6 +164,7 @@ body {
     padding-top:0%;
 }
 .cube-restaurants {
+    position: relative;
     width: 100%;
     height: auto;
     background-color: white;
@@ -177,6 +178,9 @@ body {
 .cube-details-restaurants {
 	width: 90%;
 }
+.cube-restaurants a {
+    width: 100%;
+  }
 .img-restaurants {
     object-fit: cover;
 	width: 100%;
@@ -184,22 +188,16 @@ body {
 	border-radius: 15px 15px 0 0;
 }
 .nouveau-text {
-    position: absolute;
-    right: 26px;
-    color: #008766;
-    padding-bottom: 1px;
-    background-color: #99e2d0;
-    margin-top: -109px;
-    border-radius: 2px;
+    position: relative;
 }
-.nouveau-text1 {
+.nouveau-text {
     position: absolute;
-    right: 26px;
+    right: 14px;
     color: #008766;
     padding-bottom: 1px;
     background-color: #99e2d0;
-    margin-top: -109px;
     border-radius: 2px;
+    top: 7%;
 }
 .flex-column-centre {
     display: flex;
@@ -211,17 +209,23 @@ body {
     margin-top: 20px;
 }
 .coeur {
+    position: relative;
+}
+.coeur {
     font-size: 1.5rem;
-    margin-left: 287px;
+    margin-left: 80%;
     position: absolute;
-    margin-top: -69px;
+    bottom: 8%;
     border-radius: 50%;
 }
 .coeur1 {
+    position:relative
+}
+.coeur1 {
     font-size: 1.5rem;
-    margin-left: 288px;
+    margin-left: 80%;
     position: absolute;
-    margin-top: -69px;
+    bottom: 8%;
     border-radius: 0%;
     color: transparent;
     background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
@@ -279,15 +283,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
- .nouveau-text768 {
-    right: 59px;
-    margin-top: -105px;
- }
- .nouveau-text1768 {
-    right: 59px;
-    margin-top: -105px;
-}
  .li-fonctio {
     margin-right: 90px;
     margin-left: 90px;
@@ -301,12 +296,6 @@ body {
     .block1 {
     padding-bottom: 0%;
 }
-    .coeur {
-        margin-left: 78%;
-    }
-    .coeur1 {
-        margin-left: 78%;
-    }
     .fourk-footer {
         margin-left: 2%;
     }
@@ -344,15 +333,7 @@ body {
         justify-content: space-between;
         align-items: center;
     } 
-    .nouveau-text11200 {
-        
-        right: 7%;  
-        margin-top: -159px;
-    }
-    .nouveau-text1200 {
-        right: 52%;  
-        margin-top: -159px;
-    }
+    
     .ohmyfood-style {
         font-size: 23px;
         margin-bottom: 10px;
@@ -375,12 +356,6 @@ body {
      }
      .li-fonc-marg {
         margin-bottom: 1px;
-     }
-     .coeur {
-         margin-left: 37%;
-     }
-     .coeur1 {
-         margin-left: 37%;
      }
 }
 /*Loader*/

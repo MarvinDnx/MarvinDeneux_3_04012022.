@@ -540,7 +540,12 @@ body {
     animation-delay: 1200ms;
     animation-fill-mode: forwards;
     opacity: 0;
-}      
+} 
+.cascade-4 {
+    animation-delay: 1600ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}     
 @keyframes fadeindown {
     from {
         transform: translateY(-20px);
