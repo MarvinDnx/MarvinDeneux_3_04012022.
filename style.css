@@ -294,7 +294,7 @@ a {
  .li-fonc-marg {
      flex: 1;
      margin: 0 0 0 2rem;
-     margin-right: 2%;
+     margin-right: 6%;
      margin-bottom: 3%;
  }
     .block1 {
@@ -650,76 +650,4 @@ a {
         margin-bottom: -1%;
     }
  }
- /*Page3*/
- /*La note enchantée*/
- .coeurlanen {
-    font-size: 1.5rem;
-    margin-left: 316px;
-    position: absolute;
-    margin-top: -56px;
-    border-radius: 50%;
-}
-.coeurlanen1 {
-    font-size: 1.5rem;
-    margin-left: 316px;
-    position: absolute;
-    margin-top: -57px;
-    border-radius: 0%;
-    color: transparent;
-    background-image: linear-gradient(to top,#FF79DA,rgb(216, 138, 226));
-    background-clip: text;
-    -webkit-background-clip: text;
-    opacity: 0; 
-}
-.coeurlanen1:hover {
-    cursor: pointer;
-    color: transparent;
-    opacity: 1;
-    transform: scale(1.2);
-    transition: all 150ms
-}
-.prix-menu2 {
-    position: absolute;
-    margin-left: 302px;
-    margin-top: -24px;
-    font-weight: bold;
-    border: 1px solid black;
-}
-.size-section1-m {
-    height: 1146px;
-    border-radius: 43px 43px 0 0;
-    position: relative;
-    margin-top: 8%;
-}
-@media screen and (min-width:768px) {
-    .marg-bloc-fr {
-        margin-bottom: -2%;
-    }
-    .size-section-m {
-        margin-top: 7%;
-    }
-    .coeurlanen {
-        margin-left: 698px;
-    }
-    .coeurlanen1 { 
-        margin-left: 698px;
-    }
-    .prix-menu2 {
-        margin-left: 630px;
-     }
-}
-@media  screen and (min-width:1200px) {
-    .prix-menu2 {
-        margin-left: 630px;
-    }
-    .marg-bloc-fr {
-        margin-bottom: -1%;
-    }
-    .coeurlanen {
-        margin-left: 71%;
-    }
-    .coeurlanen1 {
-        margin-left: 71%;
-    }
-}
-/*Page4*/
+ 
