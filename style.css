@@ -306,7 +306,8 @@ a {
 }
 @media screen and (min-width:1200px){
     .padding-nav1200{
-        padding: 1.5rem 4rem;
+       margin:auto;
+       margin-right: 40px;
     }
     .cube-restaurants {
         width: 53%;
